@@ -1,0 +1,11 @@
+{
+  "name": "bg-location",
+  "version": "1.0.0",
+  "description": "set a element as same size of it's parant element backgroundImage",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wei (292701515@qq.com)",
+  "license": "ISC"
+}

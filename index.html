@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=5, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    html,body{
+        width: 100%;
+        height: 100%;
+    }
+    #container{
+        position: relative;
+        margin: 100px auto;
+        width: 50%;
+        height: 50%;
+        resize: both;
+        box-sizing: border-box;
+        border: 1px solid red;
+        background-image: url(./img/download.png);
+        background-position: 10%;
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+    }
+    #bg-addapter{
+        position: relative;
+        border: 1px solid green;
+        /* margin: 0 auto; */
+        box-sizing: border-box;
+    }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="bg-adapter">
+
+        </div>
+    </div>
+<script src="./js/main.js"></script>
+<script>
+
+var bgAdapter = new BgAdapter('./img/download.png','#container', '#bg-adapter');
+
+bgAdapter.set()
+</script>
+</body>
+</html>
